@@ -996,7 +996,7 @@ footer {
         top: 0;
         bottom: 0;
         background-color: #fff;
-        width: 70%;
+        width: 80%;
         z-index: 10000;
         text-align: right;
         background-position: center;
@@ -1030,7 +1030,7 @@ footer {
         justify-content: flex-start;
         align-items: center;
         width: 100%;
-        padding-right: 10px;
+        padding-right: 30px;
         margin-top: 250px;
     }
     .side__bar .social__group a {
@@ -1048,9 +1048,13 @@ footer {
     }
     .close__sidebar {
         position: absolute;
-        top: 15px;
+        top: 18px;
         left: 15px;
         cursor: pointer;
+        padding: 10px 15px 9px;
+        border: 1.3px solid #009999;
+        color: #009999;
+        border-radius: 50%;
     }
     .nav__active {
         left: 0px !important;
@@ -1121,10 +1125,10 @@ footer {
     .about__content-details {
         padding-top: 20px;
     }
-    .about__title {
+    /* .about__title {
         width: 80%;
         margin-bottom: 20px;
-    }
+    } */
     .heading {
         margin: 0px 10px 0px 0px;
         font-size: var(--h2-font-size);
@@ -1137,12 +1141,14 @@ footer {
         right: -12px;
     }
     .about__content-details .about__title h1 {
-        font-size: var(--h2-font-size);
+        font-size: var(--h1-font-size);
         font-weight: 600;
+        text-align: center;
+        margin-top: 10px;
     }
     .about__content-details .about__text {
         width: 100%;
-        margin-bottom: 50px;
+        margin-bottom: 30px;
         padding: 10px;
     }
     .about__content-details .about__text p {
@@ -1186,18 +1192,24 @@ footer {
     .feature__details p{
         padding: 10px;
     }
-    .features {
-        padding: 40px 0px;
+    .feature__details .heading{
+        text-align: center;
     }
-    .features__content .feature {
+    .features {
+        padding: 20px 0px;
+    }
+    .item .feature {
         border-radius: 10px;
-        width: 100%;
-        height: 150px;
+        width: 90%;
+        margin: 0px 5%;
+        height: 180px;
         padding: 5px;
+        box-shadow: 0 -1px 8px rgba(0, 0, 0, .15);
     }
     .feature__text {
-        width: 90%;
-        padding-right: 15px;
+        width: 95%;
+        text-align: center;
+        padding-right: 0px;
     }
     .feature__text p {
         font-size: var(--smaller-font-size);
@@ -1207,11 +1219,12 @@ footer {
     }
     .feature__carousel .owl-item > div {
         width: 100%;
-        height: 300px;
+        height: 200px;
     }
     /* Slider Screen */
     .app-screen__container {
         height: 800px;
+        margin-top: 100px;
         background-color: #fff;
     }
     .owl-carousel button.owl-dot {
@@ -1258,6 +1271,7 @@ footer {
     /* Email */
     .email__container {
         width: 100%;
+        margin-top: 50px;
     }
     .email__container .container {
         padding: 0px;
@@ -1267,8 +1281,8 @@ footer {
         flex-flow: column;
         justify-content: center;
         align-items: center;
-        border-radius: 0px;
-        height: 180px;
+        border-radius: 0px !important;
+        height: 250px;
         top: -170px;
     }
     .email__container .email__content form {
@@ -1276,27 +1290,30 @@ footer {
         flex-flow: column;
         justify-content: center;
         align-items: center;
+        width: 100%;
+        
     }
     .email__content .email__inp {
-        width: 300px;
+        width: 100%;
         height: 50px;
+        border-radius: 10px !important;
     }
     .email__content .btn__submit {
         position: inherit;
-        margin-top: 10px;
+        margin-top: 20px;
         font-weight: 600;
         border-radius: 10px;
     }
 
     /* Footer */
     .footer_content {
-        height: 340px;
+        height: 400px;
     }
-    .footer__links {
-        flex-flow: row wrap;
+    .footer_content .btn__group{
+        margin-bottom: 0px;
     }
     .copyrights {
-        flex-flow: column;
+        padding: 20px 10px;
     }
     .copyrights div {
         width: 100%;
