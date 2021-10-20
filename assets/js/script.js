@@ -21,14 +21,14 @@ window.onload = () => {
 }
 
 // ===============   Animation in Features   ============== //
-function showFeatures() {
-    const Features = document.querySelector('.features');
-    if (this.scrollY >= 950) {
-        Features.style.opacity = '1';
-    }
-    else Features.style.opacity = '0';
-}
-window.addEventListener('scroll', showFeatures);
+// function showFeatures() {
+//     const Features = document.querySelector('.features');
+//     if (this.scrollY >= 950) {
+//         Features.style.opacity = '1';
+//     }
+//     else Features.style.opacity = '0';
+// }
+// window.addEventListener('scroll', showFeatures);
 
 //========== Feature Carousel ============//
 var owlFeature = $('.feature__carousel');
